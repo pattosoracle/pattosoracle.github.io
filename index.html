@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leitor de Cartas de Tarô</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Leitor de Cartas de Tarô</h1>
+        <div id="card-container">
+            <div id="major-arcana" class="card">
+                <h2>Arcanos Maiores</h2>
+                <button onclick="drawCard('major')">Sortear Carta</button>
+                <div id="major-card"></div>
+            </div>
+            <div id="minor-arcana" class="card">
+                <h2>Arcanos Menores</h2>
+                <button onclick="drawCard('minor')">Sortear Carta</button>
+                <div id="minor-card"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
